@@ -1,0 +1,119 @@
+@import url(header.css);
+@import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Encode Sans SC", "Noto Sans KR", sans-serif;
+}
+body {
+  background: #e4dedc;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+#container {
+  text-align: center;
+  margin-top: 100px;
+}
+/* 슬라이더 */
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  background: #e4dedc;
+  z-index: 1;
+}
+.slider img {
+  margin: 0 auto;
+}
+/* 제품가격 */
+.detail_text {
+  width: 100%;
+  padding-top: 10px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail_text h2 {
+  font-size: 20px;
+  height: 50px;
+  color: #444;
+  line-height: 1;
+  border-bottom: 1px solid #dfdfdf;
+}
+.price {
+  font-weight: bold;
+}
+.detail_text dl {
+  display: table;
+  width: 100%;
+  margin-top: 15px;
+}
+.detail_text dl dt {
+  display: table-cell;
+  vertical-align: top;
+  width: 30%;
+}
+.detail_text dl dd {
+  display: table-cell;
+  vertical-align: top;
+  width: 70%;
+}
+.plus {
+  position: absolute;
+  right: 42%;
+  top: 115px;
+}
+.minus {
+  position: absolute;
+  right: 25%;
+  top: 115px;
+}
+#ct_qty {
+  text-align: center;
+  width: 30px;
+}
+.payment {
+  position: relative;
+  margin-top: 50px;
+}
+.payment .pay_b {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  position: absolute;
+  left: 15%;
+  background-color: #444;
+}
+.payment .basket_b {
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  position: absolute;
+  right: 15%;
+  background-color: #444;
+}
+/* 상품설명 */
+.detail_main .imgbox {
+  margin-top: 130px;
+}
+.detail_main img {
+  width: 100%;
+  height: 100%;
+}

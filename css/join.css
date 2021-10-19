@@ -1,0 +1,139 @@
+/* @import url(common.css); */
+@import url(header.css);
+@import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Encode Sans SC", "Noto Sans KR", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-color: #e4dedc;
+}
+
+/* container - join */
+fieldset {
+  border: 0;
+}
+legend {
+  display: none;
+  font-size: 0;
+}
+#c_join h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+}
+#c_join h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid #9a9a9a;
+  margin: 20px auto;
+}
+#c_join {
+  padding: 20px;
+  position: relative;
+}
+#c_join div {
+  padding: 10px 0;
+}
+#c_join div input#id,
+#c_join div input#pw {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+#c_join div input#hp {
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+}
+#c_join div input#hp_confirm_box {
+  width: 20%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  position: absolute;
+  right: 20px;
+  color: #8a8a8a;
+}
+#c_join div input#hp_confirm_num {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  background-color: #eee;
+}
+
+#c_join .checkbox_group {
+  position: relative;
+}
+#c_join .checkbox_group .allagr {
+  border-bottom: 1px solid #9a9a9a;
+  margin-bottom: 10px;
+}
+
+#c_join .checkbox_group input[type="checkbox"] {
+  border-radius: 4px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #aaa;
+}
+
+#c_join .checkbox_group label {
+  line-height: 20px;
+}
+
+#c_join .checkbox_group .txt_box {
+  position: relative;
+}
+#c_join .checkbox_group span {
+  position: absolute;
+  right: 0;
+  top: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#c_join .join_btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  margin-top: 21px;
+}
+#c_join .checkbox_group textarea {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  padding: 20px;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 13px;
+  height: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  overflow-y: scroll;
+  resize: none;
+  vertical-align: top;
+}

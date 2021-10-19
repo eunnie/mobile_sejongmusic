@@ -1,0 +1,117 @@
+/* @import url(common.css); */
+@import url(header.css);
+@import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Encode Sans SC", "Noto Sans KR", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  background-color: #e4dedc;
+}
+
+
+/* container - contact */
+#c_contact h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+}
+#c_contact h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  border-bottom: 1px solid #9a9a9a;
+  margin: 20px auto;
+}
+#c_contact #tel p {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 24px;
+  color: rgb(250, 82, 31);
+  font-weight: 700;
+}
+#c_contact #tel p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#c_contact #time img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  margin-left: -140px;
+  margin-top: 5px;
+  display: block;
+  float: left;
+}
+#c_contact #time p {
+  text-align: center;
+  font-size: 18px;
+}
+#c_contact #time p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#c_contact #con_btn {
+  position: relative;
+  text-align: center;
+  margin-bottom: 35px;
+}
+#c_contact #con_btn img {
+  width: 50px;
+  height: 60px;
+}
+#c_contact #con_btn div {
+  width: 49%;
+  height: auto;
+  display: block;
+  float: left;
+  padding-top: 30px;
+  border-right: 1px solid #bcbcbc;
+}
+#c_contact #con_btn div a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+}
+#c_contact #con_btn div a span p {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+#c_contact #con_btn div:nth-child(even) {
+  border-right: 0;
+}
+#c_contact #con_btn div:nth-child(1),
+#c_contact #con_btn div:nth-child(2) {
+  border-bottom: 1px solid #bcbcbc;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+#c_contact #con_btn:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+

@@ -1,0 +1,59 @@
+@import url(header.css);
+@import url(footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Encode Sans SC", "Noto Sans KR", sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* list */
+#list {
+  font-size: 12px;
+  text-align: center;
+}
+#list .blind {
+  display: none;
+}
+#list {
+  width: 100%;
+  padding-bottom: 5%;
+  background-color: #e4dedc;
+}
+#list h2 {
+  width: 65%;
+  margin: 0;
+  padding: 130px 0 70px 0;
+  color: #484848;
+  font-size: 24px;
+  font-family: "Encode Sans SC";
+}
+#list .con2 dl {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+#list .con2 dl dt a img {
+  width: 70%;
+}
+#list .con2 dl dt {
+  margin: 0px 5px 5px 5px;
+}
+#list .con2 dl dt img {
+  width: 100%;
+}
